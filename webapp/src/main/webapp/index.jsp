@@ -27,7 +27,8 @@
 
 <body>
     
-    <h2>Round Card ddxfkjlxdkfjldjflksf</h2>
+    <h1>Testing the deployement freestyle</h1>
+    <h2>Round Card</h2>
     
     <div class="card">
       <img src="img_avatar2.png" alt="Avatar" style="width:100%">
