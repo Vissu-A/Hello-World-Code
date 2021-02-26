@@ -13,7 +13,7 @@ resource "aws_instance" "Test_Terraform" {
       host         = aws_instance.Test_Terraform.public_ip
       type        = "ssh"
       user        = "root"
-      private_key = file("${path.module}/id_rsa")   # "file(/home/ansi-user/.ssh/id_rsa)"    
+      private_key = file(/home/ansi-user/.ssh/id_rsa)    # file("${path.module}/id_rsa")
     }
   }
   
